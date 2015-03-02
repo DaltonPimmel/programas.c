@@ -30,7 +30,7 @@ int main(){
         menor = res1;
     }
     cal = maior;
-    while(cal > 0){   // laço qie procura o MDC
+    while(cal > 1){   // laço qie procura o MDC
         cal = maior % menor;
         if(cal == 0){
             break;
@@ -46,6 +46,7 @@ int main(){
    // printf("%d\n", menor);
 
     printf("\n%d + %d = %d  X  %d =  %d\n%d   %d   %d     %d    %d", a, b, a, res, res1, c, res, c, d, den);
+    printf("\n\nMDC: %d", menor);
 
 
     return 0;
