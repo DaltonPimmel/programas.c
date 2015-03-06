@@ -33,7 +33,7 @@ void somar(int *a, int *c, int *b, int *d, char s, int ve){
         res1 /= menor;
         den /= menor;
     }
-    break;
+   // break;
 }
 
     if(ve != 2){
